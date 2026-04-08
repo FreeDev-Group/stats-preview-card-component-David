@@ -1,6 +1,6 @@
 # Frontend Mentor - Stats preview card component solution
 
-This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help me improve my coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -17,105 +17,93 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+he Stats Preview Card Component project is a responsive front-end challenge from Frontend Mentor. The goal is to build a card component that matches the provided design as closely as possible, while ensuring it works seamlessly across different devices and screen sizes. 
 
+This project focuses on:
+
+- Structuring semantic HTML for readability and accessibility.
+- Implementing a mobile-first responsive layout using Flexbox.
+- Using modern CSS techniques for styling, including overlays, typography, and spacing.
+- Deploying the project live using GitHub Pages for easy sharing and testing.
+- Practicing professional Git workflow with feature and develop branches.
+
+The project demonstrates a strong understanding of responsive design principles, CSS layout techniques, and deployment best practices.
+                                                                                                                                                                                                                  
 ### The challenge
 
-Users should be able to:
-
-- View the optimal layout depending on their device's screen size
-
 ### Screenshot
+                                                                  
+###  Desktop
+![Desktop Preview](./images/Screenshot_1_desktop.png.)
 
-![](./screenshot.jpg)
+###  Mobile
+![Mobile Preview](./images/Screenshot_2_mobile.png.)                                                                                          
+### Links                                         
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [*/not yet deployed/*]
+- Live Site URL: [*/not yet deployed/*]
 
 ## My process
 
 ### Built with
+-  HTML5
+- CSS3 (Flexbox)
+- Mobile-first design
+- Responsive layout
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+ Organizing project files properly
+- Using Flexbox for layout
+- Implementing mobile-first design
+- Connecting GitHub Pages for live deployment
 
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<main class="container">
+    <div class="card">
+      <div class="card__content">
+        <h1>
+          Get <span>insights</span>    
+        </h1>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+stat p {
+  color: var(--stats);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+## Google Fonts
+**Website:** [https://fonts.google.com/](https://fonts.google.com/)  
+- Used the exact fonts from the design: Inter for main text and Lexend Deca for stats.  
+- Ensured the **typography matched the mockup**, making the project look professional.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+### CSS Tricks / Flexbox Guide
+**Website:** [https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)  
+- Helped me use **Flexbox** for layout alignment.  
+- Made it easy to switch between **mobile (column) and desktop (row)** layouts.  
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+## AI Collaboration
 
-### Continued development
+During this project, I used AI tools to enhance my workflow and improve productivity.
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-### AI Collaboration
-
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
-
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
-
-**Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
-
+                                                
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- GitHub: [David-max-tech](https://github.com/David-max-tech)
+- Frontend Mentor: [David-max-tech](https://www.frontendmentor.io/profile/David-max-tech)
+- Twitter - [@David Mumeme]
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+- [Michael Burns](https://michaelkentburns.com/) Thanks to Michael Burns for supporting this project.  
+- [Salomon mwilo](https://github.com/Salomonmwilo) – mentor who provided valuable feedback and advice.  
+- [FreeDev Group my team](https://github.com/FreeDev-Group) – for providing resources, inspiration, and a collaborative environment.  
+- [Frontend Mentor](https://www.frontendmentor.io) – for the challenge and design mockups.  
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
