@@ -36,10 +36,10 @@ The project demonstrates a strong understanding of responsive design principles,
 ### Screenshot
                                                                   
 ###  Desktop
-![Desktop Preview](./images/Screenshot_1_desktop.png.)
+![Desktop Preview](./images/Screenshot_1_desktop.png)
 
 ###  Mobile
-![Mobile Preview](./images/Screenshot_2_mobile.png.)                                                                                          
+![Mobile Preview](./images/Screenshot_2_mobile.png)                                                                                          
 ### Links                                         
 
 - Solution URL: [*/not yet deployed/*]
