@@ -34,11 +34,12 @@ The project demonstrates a strong understanding of responsive design principles,
 ### The challenge
 
 ### Screenshot
-                                                                  
+               
 ###  Desktop
 ![Desktop Preview](./images/Screenshot_1_desktop.png)
 
 ###  Mobile
+                                                
 ![Mobile Preview](./images/Screenshot_2_mobile.png)                                                                                          
 ### Links                                         
 
